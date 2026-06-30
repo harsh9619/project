@@ -1,0 +1,51 @@
+.app {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1a1a1a;
+}
+
+.user-search__input {
+  width: 100%;
+  padding: 0.6rem 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.user-search__status {
+  margin-top: 0.75rem;
+  color: #555;
+}
+
+.user-search__status--error {
+  color: #c0392b;
+}
+
+.user-search__count {
+  margin: 0.75rem 0 0.25rem;
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.user-search__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.user-row {
+  padding: 0.6rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.user-row__name {
+  font-weight: 600;
+}
+
+.user-row__meta {
+  font-size: 0.85rem;
+  color: #666;
+}
